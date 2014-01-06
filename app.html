@@ -1,3 +1,24 @@
+<!--
+
+   Copyright 2014 giovanny <giovanny@giovanny-Lenovo-G550>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -214,7 +235,6 @@
     <section id="drawer" role="region">
 
 <!-- Cabecera -->
-<!-- contenido-->
       <header class="fixed">
         <a href="#"><span class="icon icon-menu">hide sidebar</span></a>
         <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
@@ -224,10 +244,7 @@
         <h1>Ejemplos <em>Pruebas</em></h1>
 
       </header>
-
-
-
-
+<!-- contenido-->
       <article class="content scrollable header">
         <div data-type="list">
           <ul>
@@ -242,11 +259,25 @@
               </a>
             </li>
           </ul>
-        </div>
-      </article>
-
+		</div>
+     	<section data-type="list">
+			<header>Eventos Tactiles</header>
+		 	<div id="eventos_tactiles">
+					<div id="cuerpo">
+					<br><br><br>
+			 			<h2 id="texto">Realice Algun Evento Tactil Aqui</h2>
+					<br><br><br>
+					</div>
+					<header></header>
+					<br><br><br>
+					<div id="boton">
+						<button type="button" id="cambiar">Reiniciar</button>
+					</div>  
+			</div>
+      	</section>
+    </article>
+	<!-- fin contenido -->
     </section> 
-	<!-- fin interfaz -->
   </section> 
 <!-- fin index -->
 
@@ -379,7 +410,7 @@
 
   <script type="text/javascript" defer src="js/status.js"></script>
   <script type="text/javascript" defer src="js/seekbars.js"></script>
-  <script type="text/javascript" defer src="js/app.js"></script>
+  <script type="text/javascript" defer src="js/app.js"></script>	
 
   <script>
     /*var mobile = (navigator.userAgent.search("Mobile") != -1);
@@ -409,6 +440,12 @@
       });
     }*/
   </script>
+	<!-- Eventos Tactiles -->
+	<script type="Text/javascript" src="js/zepto.min.js"></script>
+	<script type="Text/javascript" src="js/touch.js" ></script>
+	<script type="text/javascript" defer src="js/tactil.js"></script>
+	
+	</script>
 </body>
 </html>
 
