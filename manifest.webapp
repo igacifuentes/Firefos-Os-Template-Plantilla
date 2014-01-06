@@ -1,0 +1,15 @@
+{
+  "name": "Plantilla App Firefox Os",
+  "description": "Plantilla para comenzar a desarrollar en Firefox Os , donde se muestra las principales acciones en la interfaz de usuario",
+  "launch_path": "/app.html",
+  "icons": {
+    "128": "/images/app_icon_128.png",
+    "60": "/images/app_icon_60.png"
+  },
+  "version": "1.0",
+  "developer": {
+    "name": "Giovanny Cifuentes",
+    "url": "http://www.giovannycifuentes.hol.es"
+  },
+  "default_locale": "es"
+}
